@@ -1,0 +1,51 @@
+body, html{
+	margin:0;
+	padding: 0;
+	font: 12px tahoma;
+}
+div{
+	text-align: center;
+}
+.wrap{
+	width: 990px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #ddd;
+	padding: 10px;
+}
+.header{
+	background: #e25e5e;
+	height: 100px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.sidebar{
+	float: left;
+	padding: 10px;
+	width: 300px;
+	background: #5ee28d;
+	height: 700px;
+}
+.content{
+	float: left;
+	padding: 10px;
+	margin-left: 10px;
+	background: #5e86e2;
+	width: 640px;
+	height: 700px;
+	text-align: left;
+}
+.content-center{
+	background: lightgray;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	left: 250px;
+	right: 0;
+}
+.bottom{
+	background: #141926;
+	height: 60px;
+	margin-top: 10px;
+	padding: 10px;
+}
